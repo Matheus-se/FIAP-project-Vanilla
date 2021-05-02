@@ -1,0 +1,45 @@
+table {
+    border: 0 !important;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+th, td {
+    padding: 15px;
+    text-align: left;
+    text-align: center !important;
+}
+
+td {
+    text-transform: uppercase;
+}
+
+tr  {
+    border-bottom: 1px solid #ddd !important;
+}
+
+.tabela {
+    background-color: white;
+    border-radius: 10px;
+}
+.fundo {
+    background-color: #633bbf;
+}
+.seção {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #633bbf;
+    text-transform: uppercase;
+    border-radius: 100px !important;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    color:white;
+}
