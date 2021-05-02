@@ -3,3 +3,7 @@ html, body {
     padding: 0 !important;
     overflow-x: hidden;
 }
+
+nav {
+    height: 10vh;
+}

@@ -1,0 +1,69 @@
+body {
+    background-color: #633bbf !important;
+}
+
+#main-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.form-container {
+    height: calc(100vh - 10vh - 20px);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+input, textarea, select {
+    border: none;
+    outline: none;
+}
+
+input[type="text"] {
+    min-width: 100px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], select {
+    height: 40px;
+    border-bottom: 1px solid #633bbf;
+}
+
+input[type="submit"] {
+    background-color: #633bbf;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    margin-top: auto;
+}
+
+.contact-banner {
+    margin: 10px;
+    height: calc(100vh - 10vh - 20px);
+}
+
+.contact-banner img {
+    margin-top: auto;
+}
+
+select {
+    color: gray;
+    margin-left: -2px !important;
+}
+
+.personal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media (max-width: 768px) { 
+    .contact-banner {
+        height: auto !important;
+    }
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: pacifico;
+    src: url(../../fonts/Pacifico-Regular.ttf);
+}
+
 body {
     background-color: #8257e6 !important;
 }
@@ -14,8 +19,14 @@ canvas {
     bottom: 0;
 }
 
-nav {
-    height: 10vh;
+.white-bar {
+    content: "";
+    width: 150px;
+    position: absolute;
+    height: 7px;
+    background-color: white;
+    bottom: -10px;
+    left: 0;
 }
 
 .header-section {
@@ -43,6 +54,7 @@ nav {
 .h1 {
     font-size: 3em !important;
     color: #633bbf;
+    font-family: pacifico, cursive;
 }
 
 .content-section {
@@ -65,6 +77,11 @@ nav {
 footer {
     height: 50vh;
     background-color: #2c2c2e;
+}
+
+.student-name {
+    margin: 10px !important;
+    padding: 10px !important;
 }
 
 @media (max-width: 768px) { 

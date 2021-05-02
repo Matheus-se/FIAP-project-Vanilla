@@ -11,6 +11,13 @@ th, td {
     text-align: center !important;
 }
 
+#main-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 td {
     text-transform: uppercase;
 }
@@ -22,11 +29,13 @@ tr  {
 .tabela {
     background-color: white;
     border-radius: 10px;
+    overflow-x: auto;
 }
 .fundo {
-    background-color: #633bbf;
+    background-color: #8257e6 !important;
 }
-.seção {
+.section {
+    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -34,7 +43,7 @@ tr  {
     justify-content: center;
 }
 
-button {
+.button-services {
     background-color: #633bbf;
     text-transform: uppercase;
     border-radius: 100px !important;
